@@ -4,15 +4,15 @@ import pymysql
 
 class DBhandler():
     # TODO: fix this
-    connection = pymysql.connect(host='localhost',
-                                 user='user',
-                                 password='passwd',
-                                 db='db',
-                                 charset='utf8mb4',
-                                 cursorclass=pymysql.cursors.DictCursor)
+
 
     def __init__(self):
-        return
+        self.connection = pymysql.connect(host='localhost',
+                                     user='user',
+                                     password='passwd',
+                                     db='db',
+                                     charset='utf8mb4',
+                                     cursorclass=pymysql.cursors.DictCursor)
 
     def insertPair(self, friend, adminFriend):
         # connect to DB
