@@ -3,6 +3,8 @@ from django.http import HttpResponse
 from FrontEnd import creation
 
 def index(request):
-
-    return HttpResponse(creation.arrangeTables("", 1))
+    aa = request.GET.getlist('inputs', '')
+    listOfUsers = aa[0]
+    adminID = aa[1]
+    return HttpResponse(creation.arrangeTables(listOfUsers, adminID, FB_Token))
 
