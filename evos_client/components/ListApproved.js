@@ -18,7 +18,7 @@ class ListApproved extends Component {
   }
   render(){
          return (
-           <ul>
+           <ul className="listApproved">
              {this.state.approvedList.map(function(person,j) {
                return(
                <li>

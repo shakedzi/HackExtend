@@ -11,7 +11,7 @@ class Person extends Component {
     return(
       <span className="person">
         <img src={this.state.person.profilePicture} title={this.state.person.name} className="img-responsive"/>
-        {this.props.name}
+        <span className="person-name">{this.props.name}</span>
       </span>
       );
   }
