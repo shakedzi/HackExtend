@@ -8,7 +8,9 @@ class MapTable extends Component {
   render() {
     return (
       <div>
-        <SquareTable />
+        <div className="row">
+          <SquareTable />
+        </div>
       </div>
     );
   }

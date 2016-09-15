@@ -11,6 +11,7 @@ class Chair extends Component {
     return (
       <div className="chair">
         <img src={this.state.chair.photo} alt={this.state.chair.name} className="img-responsive"/>
+        <img src={'/evos-images/check.png'} />
       </div>
     );
 

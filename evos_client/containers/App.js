@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     const { todos, actions } = this.props
     return (
-      <div>
+      <div className="container">
         <MapTable />
       </div>
     )
