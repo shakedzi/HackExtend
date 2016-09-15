@@ -3,30 +3,17 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { Router, Route, hashHistory } from 'react-router'
 import Header from '../components/Header'
-import MainSection from '../components/MainSection'
-import MapTable from '../components/mapTable'
-import ListApproved from '../components/ListApproved'
-import ListWaitingReplay from '../components/ListWaitingReplay'
-import ProgressBar from '../components/ProgressBar'
+
+
 import * as TodoActions from '../actions'
 
 
-class App extends Component {
+class AddEvent extends Component {
   render() {
     const { todos, actions } = this.props
     return (
       <div className="container">
-        <Header />
-        <div className="row">
-          <div className="col-md-8">
-              <MapTable />
-          </div>
-          <div className="col-md-4">
-              <ProgressBar />
-              <ListApproved />
-              <ListWaitingReplay />
-          </div>
-        </div>
+      Add event
       </div>
     )
   }
@@ -48,4 +35,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(App)
+)(AddEvent)
