@@ -16,7 +16,6 @@ class DBhandler():
 
     def insertPair(self, friend, adminFriend):
         # connect to DB
-
         # Read a single record
         sql = "SELECT * FROM `users` WHERE (`id1`="+friend+" AND `id2`="+adminFriend+") OR (`id1`="+adminFriend+" AND `id2`="+friend+")"
         found = self.selectDB(sql)
