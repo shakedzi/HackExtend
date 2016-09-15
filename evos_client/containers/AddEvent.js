@@ -19,7 +19,6 @@ class AddEvent extends Component {
   }
 }
 
-
 function mapStateToProps(state) {
   return {
     todos: state.todos
