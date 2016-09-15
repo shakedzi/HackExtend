@@ -4,6 +4,8 @@ import { connect } from 'react-redux'
 import Header from '../components/Header'
 import MainSection from '../components/MainSection'
 import MapTable from '../components/mapTable'
+import SquareTable from '../components/squareTable'
+import ListApproved from '../components/ListApproved'
 import * as TodoActions from '../actions'
 
 
@@ -12,7 +14,14 @@ class App extends Component {
     const { todos, actions } = this.props
     return (
       <div className="container">
+      <div>
         <MapTable />
+      <div>
+        <SquareTable />
+      </div>
+      <div>
+        <ListApproved />
+      </div>
       </div>
     )
   }
