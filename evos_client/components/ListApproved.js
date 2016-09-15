@@ -7,9 +7,9 @@ class ListApproved extends Component {
   constructor(props, context) {
     super(props, context)
     this.state = {
-      approvedList: [{name: "roy",profilePicture: "http://static.bigstockphoto.com/images/homepage/2016_popular_photo_categories.jpg"},
-        {name: "israel",profilePicture: "http://static.bigstockphoto.com/images/homepage/2016_popular_photo_categories.jpg"},
-        {name: "adi",profilePicture: "http://static.bigstockphoto.com/images/homepage/2016_popular_photo_categories.jpg"},
+      approvedList: [{name: "roy",profilePicture: "http://static4.bigstockphoto.com/thumbs/0/3/9/small2/93074543.jpg"},
+        {name: "israel",profilePicture: "http://static4.bigstockphoto.com/thumbs/0/3/9/small2/93074543.jpg"},
+        {name: "adi",profilePicture: "http://static4.bigstockphoto.com/thumbs/0/3/9/small2/93074543.jpg"},
         {name: "yoav",profilePicture: "http://static.bigstockphoto.com/images/homepage/2016_popular_photo_categories.jpg"},
         {name: "dan",profilePicture: "http://static.bigstockphoto.com/images/homepage/2016_popular_photo_categories.jpg"},
         {name: "nisim",profilePicture: "http://static.bigstockphoto.com/images/homepage/2016_popular_photo_categories.jpg"}
@@ -20,11 +20,9 @@ class ListApproved extends Component {
          return (
            <ul>
              {this.state.approvedList.map(function(person,j) {
-               return
                <li>
                  <Person key={j} name={person.name} photo={person.profilePicture}  />
-
-                 <img src={LogoImg} width="55" height="66" />
+                 <img src={LogoImg} width="55" height="66" className="img-responsive" />
                </li>
              })
            }
