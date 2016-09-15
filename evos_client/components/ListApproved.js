@@ -20,10 +20,11 @@ class ListApproved extends Component {
          return (
            <ul>
              {this.state.approvedList.map(function(person,j) {
+               return(
                <li>
                  <Person key={j} name={person.name} photo={person.profilePicture}  />
-                 <img src={LogoImg} width="55" height="66" className="img-responsive" />
-               </li>
+                 <img src={LogoImg} width="55" height="66" />
+               </li> )
              })
            }
            </ul>

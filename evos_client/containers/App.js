@@ -22,9 +22,6 @@ class App extends Component {
               <ListApproved />
           </div>
         </div>
-
-
-
       </div>
     )
   }
