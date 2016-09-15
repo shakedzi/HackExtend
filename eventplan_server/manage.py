@@ -2,6 +2,7 @@
 import os
 import sys
 
+#TODO: update - this is the default django code
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "eventplan_server.settings")
     try:
