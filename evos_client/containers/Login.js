@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import { Router, Route, hashHistory } from 'react-router'
 import Header from '../components/Header'
 import MainSection from '../components/MainSection'
+import LoginButton from '../components/Login/loginButton'
 
 import * as TodoActions from '../actions'
 
@@ -13,7 +14,7 @@ class Login extends Component {
     const { todos, actions } = this.props
     return (
       <div className="container">
-        Login
+        <LoginButton />
       </div>
     )
   }
