@@ -16,30 +16,13 @@ class SquareTable extends Component {
   }
   render() {
     return (
-      <table>
-       <tbody>
-       <tr>
-       <td>
+      <div>
        {
-         this.state.guestes.map(function(user, j) {
-                if(j>3){
-                  return <div>{j}</div>
-                }
-
-           })
-         }
-         </td>
-         </tr>
-          <tr>
-            <Chair />
-            <Chair />
-          </tr>
-          <tr>
-            <Chair />
-            <Chair />
-          </tr>
-       </tbody>
-      </table>
+        this.state.guestes.map(function(user, j) {
+          return <Chair />
+        })
+       }
+      </div>
     );
   }
 }

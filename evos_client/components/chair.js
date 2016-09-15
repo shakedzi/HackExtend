@@ -9,9 +9,9 @@ class Chair extends Component {
   }
   render() {
     return (
-      <td className="chair">
+      <div className="chair">
         <img src={this.state.chair.photo} alt={this.state.chair.name} className="img-responsive"/>
-      </td>
+      </div>
     );
 
   }
