@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import Person from './Person'
-import LogoImg from '../images/green-check-icon.png';
+import CheckImg from '../images/green-check-icon.png';
 
 
 class ListApproved extends Component {
@@ -22,8 +22,8 @@ class ListApproved extends Component {
              {this.state.approvedList.map(function(person,j) {
                return(
                <li>
-                 <Person key={j} name={person.name} photo={person.profilePicture}  />
-                 <img src={LogoImg} width="20" height="20" />
+                 <Person key={j} name={person.name} profilePicture={person.profilePicture}  />
+                 <img src={CheckImg} width="20" height="20" />
                </li> )
              })
            }

@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import MainSection from '../components/MainSection'
 import MapTable from '../components/mapTable'
 import ListApproved from '../components/ListApproved'
+import ListWaitingReplay from '../components/ListWaitingReplay'
 import ProgressBar from '../components/ProgressBar'
 import * as TodoActions from '../actions'
 
@@ -20,8 +21,9 @@ class App extends Component {
               <MapTable />
           </div>
           <div className="col-md-4">
-              <ProgressBar/>
+              <ProgressBar />
               <ListApproved />
+              <ListWaitingReplay />
           </div>
         </div>
       </div>

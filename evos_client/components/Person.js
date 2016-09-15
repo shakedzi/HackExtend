@@ -10,7 +10,7 @@ class Person extends Component {
   render(){
     return(
       <span className="person">
-        <img src={this.state.person.profilePicture} title={this.state.person.name} className="img-responsive"/>
+        <img src={this.props.profilePicture} title={this.props.name} className="img-responsive"/>
         <span className="person-name">{this.props.name}</span>
       </span>
       );
