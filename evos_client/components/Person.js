@@ -9,9 +9,9 @@ class Person extends Component {
   }
   render(){
     return(
-      <div className="person">
-        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src={this.state.person.profilePicture} alt={this.state.person.name} className="img-responsive"/>
-      </div>
+      <span className="person">
+        <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src={this.state.person.profilePicture} title={this.state.person.name} className="img-responsive"/>
+      </span>
       );
   }
 }
