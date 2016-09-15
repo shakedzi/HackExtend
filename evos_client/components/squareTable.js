@@ -16,7 +16,7 @@ class SquareTable extends Component {
   }
   render() {
     return (
-      <div className="col-md-4 squareTable">
+      <div className="col-md-3 squareTable">
        {
         this.state.guestes.map(function(user, j) {
           return <Chair />

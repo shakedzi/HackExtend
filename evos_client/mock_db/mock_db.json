@@ -1,0 +1,72 @@
+{"data":[
+  {
+       "guests":[
+          {
+             "name":"shula",
+             "photo":         "http://icons.iconarchive.com/icons/webalys/kameleon.pics/512/Woman-9-icon.png",
+             "approved":"yes"
+          },
+          {
+             "name":"shoshana",
+             "photo":          "http://junglejobs.ru/assets/img/female-avatar.png",
+             "approved":"no"
+          },
+          {
+             "name":"yaacov",
+             "photo":         "https://cdn1.iconfinder.com/data/icons/user-pictures/100/male3-512.png",
+             "approved":"yes"
+          },
+          {
+             "name":"yoni",
+             "photo":         "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAXiAAAAJDk5NTVkYTVkLTU5MDYtNGIyYS05N2U1LWFkNzFhNzdjNmM2OA.jpg",
+             "approved":"no"
+          },
+          {
+             "name":"Lili",
+             "photo":         "https://cdn2.iconfinder.com/data/icons/pretty-office-10/512/Teacher-female-512.png",
+             "approved":"yes"
+          },
+          {
+             "name":"moshe",
+             "photo":         "http://icons.iconarchive.com/icons/designbolts/free-male-avatars/128/Male-Avatar-Hair-icon.png",
+             "approved":"no"
+          }
+
+       ]
+    },
+    {
+       "guestes":[
+          {
+             "name":"roy",
+             "photo":         "http://static.bigstockphoto.com/images/homepage/2016_popular_photo_categories.jpg",
+             "approved":"yes"
+          },
+          {
+             "name":"israel",
+             "photo":         "http://static.bigstockphoto.com/images/homepage/2016_popular_photo_categories.jpg",
+             "approved":"no"
+          },
+          {
+             "name":"adi",
+             "photo":         "http://static.bigstockphoto.com/images/homepage/2016_popular_photo_categories.jpg",
+             "approved":"yes"
+          },
+          {
+             "name":"yoav",
+             "photo":         "http://static.bigstockphoto.com/images/homepage/2016_popular_photo_categories.jpg",
+             "approved":"no"
+          },
+          {
+             "name":"dan",
+             "photo":         "http://static.bigstockphoto.com/images/homepage/2016_popular_photo_categories.jpg",
+             "approved":"yes"
+          },
+          {
+             "name":"nisim",
+             "photo":         "http://static.bigstockphoto.com/images/homepage/2016_popular_photo_categories.jpg",
+             "approved":"no"
+          }
+       ]
+    }
+  ]
+}
