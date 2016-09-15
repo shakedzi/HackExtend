@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
+from FrontEnd import creation
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+
+    return HttpResponse(creation.arrangeTables("", 1))
 

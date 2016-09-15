@@ -46,9 +46,8 @@ def arrangeTables(listOfUsers, adminID):
                                   '{name: "nisim", photo: "http://static.bigstockphoto.com/images/homepage/2016_popular_photo_categories.jpg"}'
                                   ']'
                                   '}]')
-
     return returnTablesJson
 
 
-createPairs({2:[1,4,5], 3:[1,4,7], 4:[1,2,3]}, [2,3,4], 1)
+# createPairs({2:[1,4,5], 3:[1,4,7], 4:[1,2,3]}, [2,3,4], 1)
 
