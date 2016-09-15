@@ -3,7 +3,12 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import Header from '../components/Header'
 import MainSection from '../components/MainSection'
+<<<<<<< 8598be5765010e5aa749395a2359f16989f815df
 import MapTable from '../components/mapTable'
+=======
+import SquareTable from '../components/squareTable'
+import ListApproved from '../components/ListApproved'
+>>>>>>> list approved,person
 import * as TodoActions from '../actions'
 
 
@@ -12,7 +17,16 @@ class App extends Component {
     const { todos, actions } = this.props
     return (
       <div>
+<<<<<<< 8598be5765010e5aa749395a2359f16989f815df
         <MapTable />
+=======
+      <div>
+        <SquareTable />
+>>>>>>> list approved,person
+      </div>
+      <div>
+        <ListApproved />
+      </div>
       </div>
     )
   }
