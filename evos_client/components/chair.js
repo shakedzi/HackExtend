@@ -10,7 +10,7 @@ class Chair extends Component {
   render() {
     return (
       <div className="chair">
-        <img src={this.state.chair.photo} alt={this.state.chair.name} className="img-responsive"/>
+        <img src={this.state.chair.photo} alt={this.state.chair.name} title={this.state.chair.name} className="img-responsive"/>
       </div>
     );
 

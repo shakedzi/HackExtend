@@ -13,12 +13,18 @@ class App extends Component {
     const { todos, actions } = this.props
     return (
       <div className="container">
-        <div>
-          <MapTable />
+        <Header />
+        <div className="row">
+          <div className="col-md-8">
+              <MapTable />
+          </div>
+          <div className="col-md-4">
+              <ListApproved />
+          </div>
         </div>
-        <div>
-          <ListApproved />
-        </div>
+
+
+
       </div>
     )
   }
