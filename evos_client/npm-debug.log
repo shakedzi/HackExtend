@@ -1,0 +1,290 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-facebook-login',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose install initial load of /Users/roygoren/Developer/HackExtend/evos_client/package.json
+5 warn package.json redux-todomvc-example@0.0.0 No README data
+6 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/babel-core/package.json
+7 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/babel-loader/package.json
+8 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/babel-polyfill/package.json
+9 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/babel-preset-es2015/package.json
+10 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/babel-preset-react/package.json
+11 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/babel-preset-react-hmre/package.json
+12 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/babel-register/package.json
+13 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/classnames/package.json
+14 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/cross-env/package.json
+15 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/enzyme/package.json
+16 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/evos-images/package.json
+17 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/expect/package.json
+18 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/express/package.json
+19 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/file-loader/package.json
+20 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/jsdom/package.json
+21 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/mocha/package.json
+22 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/node-libs-browser/package.json
+23 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/raw-loader/package.json
+24 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react/package.json
+25 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-addons-test-utils/package.json
+26 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-bootstrap/package.json
+27 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-dom/package.json
+28 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login/package.json
+29 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-redux/package.json
+30 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-router/package.json
+31 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/redux/package.json
+32 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/style-loader/package.json
+33 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/todomvc-app-css/package.json
+34 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/url-loader/package.json
+35 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/webpack/package.json
+36 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/webpack-dev-middleware/package.json
+37 verbose installManyTop reading scoped package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/webpack-hot-middleware/package.json
+38 info package.json raw-loader@0.5.1 No license field.
+39 info package.json webpack-dev-middleware@1.7.0 No license field.
+40 verbose readDependencies loading dependencies from /Users/roygoren/Developer/HackExtend/evos_client/package.json
+41 verbose install react-facebook-login is installed as 3.2.0
+42 silly cache add args [ 'react-facebook-login', null ]
+43 verbose cache add spec react-facebook-login
+44 silly cache add parsed spec Result {
+44 silly cache add   raw: 'react-facebook-login',
+44 silly cache add   scope: null,
+44 silly cache add   name: 'react-facebook-login',
+44 silly cache add   rawSpec: '',
+44 silly cache add   spec: 'latest',
+44 silly cache add   type: 'tag' }
+45 silly addNamed react-facebook-login@latest
+46 verbose addNamed "latest" is being treated as a dist-tag for react-facebook-login
+47 info addNameTag [ 'react-facebook-login', 'latest' ]
+48 silly mapToRegistry name react-facebook-login
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry data Result {
+51 silly mapToRegistry   raw: 'react-facebook-login',
+51 silly mapToRegistry   scope: null,
+51 silly mapToRegistry   name: 'react-facebook-login',
+51 silly mapToRegistry   rawSpec: '',
+51 silly mapToRegistry   spec: 'latest',
+51 silly mapToRegistry   type: 'tag' }
+52 silly mapToRegistry uri https://registry.npmjs.org/react-facebook-login
+53 verbose addNameTag registry:https://registry.npmjs.org/react-facebook-login not in flight; fetching
+54 verbose request uri https://registry.npmjs.org/react-facebook-login
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 12:39:52 AM
+57 verbose request id 7ea9f1ab75366387
+58 verbose etag "497V0VET4BW6QJFGP8OH6GA07"
+59 http request GET https://registry.npmjs.org/react-facebook-login
+60 http 304 https://registry.npmjs.org/react-facebook-login
+61 verbose headers { date: 'Thu, 15 Sep 2016 21:39:53 GMT',
+61 verbose headers   via: '1.1 varnish',
+61 verbose headers   'cache-control': 'max-age=300',
+61 verbose headers   etag: '"497V0VET4BW6QJFGP8OH6GA07"',
+61 verbose headers   age: '22',
+61 verbose headers   connection: 'keep-alive',
+61 verbose headers   'x-served-by': 'cache-fra1227-FRA',
+61 verbose headers   'x-cache': 'HIT',
+61 verbose headers   'x-cache-hits': '1',
+61 verbose headers   'x-timer': 'S1473975593.081403,VS0,VE0',
+61 verbose headers   vary: 'Accept-Encoding' }
+62 silly get cb [ 304,
+62 silly get   { date: 'Thu, 15 Sep 2016 21:39:53 GMT',
+62 silly get     via: '1.1 varnish',
+62 silly get     'cache-control': 'max-age=300',
+62 silly get     etag: '"497V0VET4BW6QJFGP8OH6GA07"',
+62 silly get     age: '22',
+62 silly get     connection: 'keep-alive',
+62 silly get     'x-served-by': 'cache-fra1227-FRA',
+62 silly get     'x-cache': 'HIT',
+62 silly get     'x-cache-hits': '1',
+62 silly get     'x-timer': 'S1473975593.081403,VS0,VE0',
+62 silly get     vary: 'Accept-Encoding' } ]
+63 verbose etag https://registry.npmjs.org/react-facebook-login from cache
+64 verbose get saving react-facebook-login to /Users/roygoren/.npm/registry.npmjs.org/react-facebook-login/.cache.json
+65 verbose correctMkdir /Users/roygoren/.npm correctMkdir not in flight; initializing
+66 silly addNameTag next cb for react-facebook-login with tag latest
+67 silly addNamed react-facebook-login@3.2.0
+68 verbose addNamed "3.2.0" is a plain semver version for react-facebook-login
+69 silly cache afterAdd react-facebook-login@3.2.0
+70 verbose afterAdd /Users/roygoren/.npm/react-facebook-login/3.2.0/package/package.json not in flight; writing
+71 verbose correctMkdir /Users/roygoren/.npm correctMkdir not in flight; initializing
+72 verbose afterAdd /Users/roygoren/.npm/react-facebook-login/3.2.0/package/package.json written
+73 silly install resolved [ { name: 'react-facebook-login',
+73 silly install resolved     version: '3.2.0',
+73 silly install resolved     description: 'A Component React for Facebook Login',
+73 silly install resolved     main: 'dist/facebook-login.js',
+73 silly install resolved     scripts:
+73 silly install resolved      { start: 'NODE_ENV=development node_modules/.bin/webpack-dev-server --config webpack.config.js',
+73 silly install resolved        bundle: 'NODE_ENV=production node_modules/.bin/webpack -p --config webpack.config.dist.js',
+73 silly install resolved        test: 'eslint src/**/*.js' },
+73 silly install resolved     repository:
+73 silly install resolved      { type: 'git',
+73 silly install resolved        url: 'git+https://github.com/keppelen/react-facebook-login.git' },
+73 silly install resolved     keywords:
+73 silly install resolved      [ 'react',
+73 silly install resolved        'reactjs',
+73 silly install resolved        'react-component',
+73 silly install resolved        'facebook-login',
+73 silly install resolved        'react-facebook-login' ],
+73 silly install resolved     author: { name: 'Giovanni Keppelen', email: 'keppelen.as@gmail.com' },
+73 silly install resolved     license: 'MIT',
+73 silly install resolved     bugs: { url: 'https://github.com/keppelen/react-facebook-login/issues' },
+73 silly install resolved     homepage: 'https://github.com/keppelen/react-facebook-login',
+73 silly install resolved     devDependencies:
+73 silly install resolved      { react: '^15.1.0',
+73 silly install resolved        'react-dom': '^15.1.0',
+73 silly install resolved        autoprefixer: '^6.0.3',
+73 silly install resolved        babel: '^6.5.2',
+73 silly install resolved        'babel-core': '^6.6.5',
+73 silly install resolved        'babel-eslint': '^4.1.6',
+73 silly install resolved        'babel-loader': '^6.2.4',
+73 silly install resolved        'babel-preset-es2015': '^6.1.18',
+73 silly install resolved        'babel-preset-react': '^6.1.18',
+73 silly install resolved        'babel-preset-stage-0': '^6.5.0',
+73 silly install resolved        'css-loader': '^0.19.0',
+73 silly install resolved        eslint: '^1.10.3',
+73 silly install resolved        'eslint-config-airbnb': '^2.0.0',
+73 silly install resolved        'eslint-plugin-react': '^3.11.3',
+73 silly install resolved        'node-sass': '^3.3.x',
+73 silly install resolved        'postcss-loader': '^0.6.0',
+73 silly install resolved        'react-addons-test-utils': '^15.1.0',
+73 silly install resolved        'react-css-modules': '^3.5.0',
+73 silly install resolved        'sass-loader': '^3.0.0',
+73 silly install resolved        'style-loader': '0.12.x',
+73 silly install resolved        webpack: '1.12.x',
+73 silly install resolved        'webpack-dev-server': '1.12.x' },
+73 silly install resolved     peerDependencies: { react: '^15.1.0' },
+73 silly install resolved     babel: { presets: [Object] },
+73 silly install resolved     gitHead: '77406eddc9009a070d72dbec255eef9e98f6e23d',
+73 silly install resolved     _id: 'react-facebook-login@3.2.0',
+73 silly install resolved     _shasum: '546d6c86d171b075f292db8731c672f2de3981ec',
+73 silly install resolved     _from: 'react-facebook-login@latest',
+73 silly install resolved     _npmVersion: '3.10.5',
+73 silly install resolved     _nodeVersion: '4.4.7',
+73 silly install resolved     _npmUser: { name: 'keppelen', email: 'keppelen.as@gmail.com' },
+73 silly install resolved     dist:
+73 silly install resolved      { shasum: '546d6c86d171b075f292db8731c672f2de3981ec',
+73 silly install resolved        tarball: 'https://registry.npmjs.org/react-facebook-login/-/react-facebook-login-3.2.0.tgz' },
+73 silly install resolved     maintainers: [ [Object] ],
+73 silly install resolved     _npmOperationalInternal:
+73 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+73 silly install resolved        tmp: 'tmp/react-facebook-login-3.2.0.tgz_1473003139793_0.579477806808427' },
+73 silly install resolved     directories: {},
+73 silly install resolved     _resolved: 'https://registry.npmjs.org/react-facebook-login/-/react-facebook-login-3.2.0.tgz',
+73 silly install resolved     readme: 'ERROR: No README data found!' } ]
+74 info install react-facebook-login@3.2.0 into /Users/roygoren/Developer/HackExtend/evos_client
+75 info installOne react-facebook-login@3.2.0
+76 verbose installOne of react-facebook-login to /Users/roygoren/Developer/HackExtend/evos_client not in flight; installing
+77 verbose correctMkdir /Users/roygoren/.npm/_locks correctMkdir not in flight; initializing
+78 verbose lock using /Users/roygoren/.npm/_locks/react-facebook-login-c6feee20d56ff7e8.lock for /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login
+79 silly install write writing react-facebook-login 3.2.0 to /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login
+80 verbose unbuild node_modules/react-facebook-login
+81 info preuninstall react-facebook-login@3.2.0
+82 info uninstall react-facebook-login@3.2.0
+83 verbose unbuild rmStuff react-facebook-login@3.2.0 from /Users/roygoren/Developer/HackExtend/evos_client/node_modules
+84 info postuninstall react-facebook-login@3.2.0
+85 silly gentlyRm /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login is being purged from base /Users/roygoren/Developer/HackExtend/evos_client
+86 verbose gentlyRm don't care about contents; nuking /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login
+87 silly vacuum-fs purging /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login
+88 silly vacuum-fs quitting because other entries in /Users/roygoren/Developer/HackExtend/evos_client/node_modules
+89 verbose tar unpack /Users/roygoren/.npm/react-facebook-login/3.2.0/package.tgz
+90 verbose tar unpacking to /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login
+91 silly gentlyRm /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login is being purged
+92 verbose gentlyRm don't care about contents; nuking /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login
+93 silly gunzTarPerm modes [ '755', '644' ]
+94 silly gunzTarPerm extractEntry package.json
+95 silly gunzTarPerm extractEntry .npmignore
+96 silly gunzTarPerm extractEntry README.md
+97 silly gunzTarPerm extractEntry webpack.config.js
+98 silly gunzTarPerm extractEntry webpack.config.dist.js
+99 silly gunzTarPerm extractEntry dist/facebook-login.js
+100 silly gunzTarPerm extractEntry .eslintrc
+101 silly gunzTarPerm extractEntry src/facebook.js
+102 silly gunzTarPerm extractEntry src/index.js
+103 silly gunzTarPerm extractEntry styles/facebook.scss
+104 silly gunzTarPerm extractEntry demo/bundle.js
+105 silly gunzTarPerm extractEntry demo/index.js
+106 silly gunzTarPerm extractEntry demo/index.html
+107 verbose write writing to /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login/package.json
+108 info preinstall react-facebook-login@3.2.0
+109 verbose readDependencies loading dependencies from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login/package.json
+110 silly prepareForInstallMany adding react@^15.1.0 from react-facebook-login peerDependencies
+111 warn peerDependencies The peer dependency react@^15.1.0 included from react-facebook-login will no
+112 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+113 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+114 verbose readDependencies loading dependencies from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login/package.json
+115 silly install resolved []
+116 verbose about to build /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login
+117 info build /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login
+118 info linkStuff react-facebook-login@3.2.0
+119 silly linkStuff react-facebook-login@3.2.0 has /Users/roygoren/Developer/HackExtend/evos_client/node_modules as its parent node_modules
+120 verbose linkBins react-facebook-login@3.2.0
+121 verbose linkMans react-facebook-login@3.2.0
+122 verbose rebuildBundles react-facebook-login@3.2.0
+123 info install react-facebook-login@3.2.0
+124 info postinstall react-facebook-login@3.2.0
+125 verbose readDependencies loading dependencies from /Users/roygoren/Developer/HackExtend/evos_client/package.json
+126 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/babel-core/package.json
+127 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/babel-loader/package.json
+128 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/babel-polyfill/package.json
+129 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/babel-preset-es2015/package.json
+130 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/babel-preset-react/package.json
+131 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/babel-preset-react-hmre/package.json
+132 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/babel-register/package.json
+133 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/classnames/package.json
+134 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/cross-env/package.json
+135 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/enzyme/package.json
+136 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/evos-images/package.json
+137 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/expect/package.json
+138 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/express/package.json
+139 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/file-loader/package.json
+140 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/jsdom/package.json
+141 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/mocha/package.json
+142 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/node-libs-browser/package.json
+143 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/raw-loader/package.json
+144 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react/package.json
+145 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-addons-test-utils/package.json
+146 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-bootstrap/package.json
+147 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-dom/package.json
+148 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login/package.json
+149 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-redux/package.json
+150 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-router/package.json
+151 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/redux/package.json
+152 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/style-loader/package.json
+153 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/todomvc-app-css/package.json
+154 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/url-loader/package.json
+155 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/webpack/package.json
+156 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/webpack-dev-middleware/package.json
+157 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/webpack-hot-middleware/package.json
+158 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/.bin/cross-env/package.json
+159 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/.bin/mocha/package.json
+160 verbose targetResolver reading package data from /Users/roygoren/Developer/HackExtend/evos_client/node_modules/.bin/webpack/package.json
+161 verbose already installed skipping react@^15.1.0 /Users/roygoren/Developer/HackExtend/evos_client
+162 silly install resolved []
+163 verbose unlock done using /Users/roygoren/.npm/_locks/react-facebook-login-c6feee20d56ff7e8.lock for /Users/roygoren/Developer/HackExtend/evos_client/node_modules/react-facebook-login
+164 verbose validateInstall loading /Users/roygoren/Developer/HackExtend/evos_client/package.json for validation
+165 verbose stack Error: The package react@0.14.8 does not satisfy its siblings' peerDependencies requirements!
+165 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+165 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+165 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+165 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+165 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+165 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+165 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+165 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+165 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+165 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+166 verbose cwd /Users/roygoren/Developer/HackExtend/evos_client
+167 error Darwin 15.6.0
+168 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "react-facebook-login" "--save"
+169 error node v4.4.3
+170 error npm  v2.15.1
+171 error code EPEERINVALID
+172 error peerinvalid The package react@0.14.8 does not satisfy its siblings' peerDependencies requirements!
+172 error peerinvalid Peer react-bootstrap@0.30.3 wants react@>=0.14.0
+172 error peerinvalid Peer react-dom@0.14.8 wants react@^0.14.8
+172 error peerinvalid Peer react-redux@4.4.5 wants react@^0.14.0 || ^15.0.0-0
+172 error peerinvalid Peer react-router@2.8.1 wants react@^0.14.0 || ^15.0.0
+172 error peerinvalid Peer react-addons-test-utils@0.14.8 wants react@^0.14.8
+172 error peerinvalid Peer react-facebook-login@3.2.0 wants react@^15.1.0
+172 error peerinvalid Peer enzyme@2.4.1 wants react@0.13.x || 0.14.x || ^15.0.0-0
+173 verbose exit [ 1, true ]
