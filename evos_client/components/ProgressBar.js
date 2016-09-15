@@ -9,7 +9,11 @@ class ProgressBar extends Component {
   }
   render(){
     return(
-    <ProgressBar active now={this.state.now} label={`${this.state.now}%`} />
+      <div className="progress">
+        <div className="progress-bar" style={{ width: `${this.state.now}%` }}>
+        {this.state.now}%
+        </div>
+      </div>
     );
   }
 }

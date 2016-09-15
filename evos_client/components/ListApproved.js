@@ -23,7 +23,7 @@ class ListApproved extends Component {
                return(
                <li>
                  <Person key={j} name={person.name} photo={person.profilePicture}  />
-                 <img src={LogoImg} width="55" height="66" />
+                 <img src={LogoImg} width="20" height="20" />
                </li> )
              })
            }
