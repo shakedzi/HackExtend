@@ -5,6 +5,7 @@ import { Provider } from 'react-redux'
 import { Router, Route, hashHistory } from 'react-router'
 import App from './containers/App'
 import Login from './containers/Login'
+import Events from './containers/Events'
 import AddEvent from './containers/AddEvent'
 import configureStore from './store/configureStore'
 import 'todomvc-app-css/mapTable.css'
@@ -17,6 +18,7 @@ render(
     <Router history={hashHistory}>
       <Route path="/" component={Login}/>
       <Route path="/main" component={App}/>
+      <Route path="/events" component={Events}/>
       <Route path="/addevent" component={AddEvent}/>
     </Router>
   </Provider>,
