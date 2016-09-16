@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 require('rc-slider/assets/index.css');
 import Rcslider from 'rc-slider';
+import {Link} from 'react-router';
 
 class CreateEvent extends Component {
   constructor(props, context) {
@@ -11,6 +12,7 @@ class CreateEvent extends Component {
     }
      this.changetoTrue = this.changetoTrue.bind(this);
      this.changetoFalse = this.changetoFalse.bind(this);
+
   }
 
   changetoTrue(){
@@ -20,6 +22,7 @@ class CreateEvent extends Component {
   changetoFalse(){
     this.setState({reminder:false})
   }
+
 
   render() {
     return (
@@ -85,9 +88,7 @@ class CreateEvent extends Component {
           </label>
         </div>
         <div>
-          <button name="button">
-          OK
-          </button>
+          <Link to="/pickfriends"> OK </Link>
         </div>
       </div>
     );
