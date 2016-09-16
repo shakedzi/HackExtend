@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
-import { Router, Route, hashHistory } from 'react-router'
+import { Router, Route, hashHistory, Link } from 'react-router'
 import Header from '../components/Header'
 import PickFriendCheckbox from '../components/PickFriendCheckbox'
 
@@ -20,6 +20,7 @@ class PickFriends extends Component {
             <PickFriendCheckbox />
           </div>
         </div>
+        <Link to='/main'>Next</Link>
       </div>
     )
   }
