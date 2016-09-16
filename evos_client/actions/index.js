@@ -1,5 +1,14 @@
 import * as types from '../constants/ActionTypes'
 
+const SERVER_URL = 'http://localhost:3000/evos/'
+
+export function login(user){
+
+  fetchData('login',user)
+  console.log("loginnnnnnnnn")
+  return { type: types.Login, user }
+}
+
 export function addTodo(text) {
   return { type: types.ADD_TODO, text }
 }
@@ -23,3 +32,10 @@ export function completeAll() {
 export function clearCompleted() {
   return { type: types.CLEAR_COMPLETED }
 }
+
+function fetchData(url,data) {
+   fetch(SERVER_URL+url, {
+         method: 'POST',
+         body: JSON.stringify(data)
+   })
+ }

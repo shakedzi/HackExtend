@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ProgressBar from '../ProgressBar'
+import { Router, Route, browserHistory, Link } from 'react-router'
 
 class Event extends Component {
   constructor(props, context) {
@@ -11,11 +12,13 @@ class Event extends Component {
   }
   render() {
     return (
-      <div className="col-md-2 event">
-        <h2 className="eventTitle">{this.state.eventTitle}</h2>
-        <img src={this.state.eventPhoto} className="img-responsive" />
-        <ProgressBar />
-      </div>
+      <Link to='/main'>
+        <div className="col-md-2 event">
+          <h2 className="eventTitle">{this.state.eventTitle}</h2>
+          <img src={this.state.eventPhoto} className="img-responsive" />
+          <ProgressBar />
+        </div>
+      </Link>
     );
 
   }

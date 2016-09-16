@@ -14,7 +14,7 @@ class Login extends Component {
     const { todos, actions } = this.props
     return (
       <div className="container">
-        <LoginButton />
+        <LoginButton login={actions.login} />
       </div>
     )
   }

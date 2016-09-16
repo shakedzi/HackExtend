@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <div className="row">
-          <a className="navbar-brand" href="#">Project name</a>
+          <a className="navbar-brand" href="#/events">Evos</a>
         </div>
     )
   }

@@ -5,5 +5,7 @@ export const COMPLETE_TODO = 'COMPLETE_TODO'
 export const COMPLETE_ALL = 'COMPLETE_ALL'
 export const CLEAR_COMPLETED = 'CLEAR_COMPLETED'
 
+export const Login = 'Login'
+
 
 export const READ_DATA = 'READ_DATA'
