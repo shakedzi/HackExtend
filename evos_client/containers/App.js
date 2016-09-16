@@ -19,8 +19,26 @@ class App extends Component {
         <Header />
         <div className="row">
           <div className="col-md-9">
-              <span className="twoTables"> <MapTable /> <MapTable /> </span>
-              <span className="twoTables"> <MapTable /> <MapTable /> </span>
+          <div className="twoTables">
+              <MapTable  />
+              <MapTable/>
+          </div>
+          <div className="twoTables">
+              <MapTable  />
+              <MapTable/>
+          </div>
+          <div className="twoTables">
+              <MapTable  />
+              <MapTable/>
+          </div>
+          <div className="twoTables">
+              <MapTable  />
+              <MapTable/>
+          </div>
+          <div className="twoTables">
+              <MapTable  />
+              <MapTable/>
+          </div>
           </div>
           <div className="col-md-3">
               <ProgressBar />
