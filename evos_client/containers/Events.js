@@ -13,6 +13,7 @@ class Events extends Component {
     const { todos, actions } = this.props
     return (
       <div className="container">
+        <Header />
         <MapEvents />
       </div>
     )
