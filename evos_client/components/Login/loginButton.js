@@ -1,13 +1,22 @@
 import React, { Component } from 'react'
 import FacebookLogin from 'react-facebook-login';
+import { Router, Route, browserHistory } from 'react-router'
 
 class LoginButton extends Component {
-  constructor(props, context) {
-    super(props, context)
+  constructor(props,context) {
+    super(props,context)
     this.responseFacebook.bind(this)
   }
   responseFacebook(response){
-    console.log(response);
+
+    Router.transitionTo('main');
+    // var transitionTo = Router.transitionTo;
+    //
+    // transitionTo('main');
+    // console.log(this.props)
+    //
+    // browserHistory.push('/main')
+    // this.props.login(response)
   }
   render() {
     return (

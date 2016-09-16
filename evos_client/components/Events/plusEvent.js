@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import { Router, Route, browserHistory, Link } from 'react-router'
 
 class PlusEvent extends Component {
   constructor(props, context) {
@@ -10,9 +10,11 @@ class PlusEvent extends Component {
   }
   render() {
     return (
-      <div className="col-md-2 eventPlus">
-        <img src={this.state.plusSign} className="img-responsive" />
-      </div>
+      <Link to='/addevent'>
+        <div className="col-md-2 eventPlus">
+          <img src={this.state.plusSign} className="img-responsive" />
+        </div>
+      </Link>
     );
 
   }
