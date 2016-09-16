@@ -14,18 +14,19 @@ class creation():
         # listOfUsers = the friends the admin invited (facebook id)
         # for each admin friend - find it in userFriendsList
         userFriendsList = self.generate_userfriends_list(listOfUsers)
-        for adminFriend in listOfUsers:
-            friendList = userFriendsList[adminFriend]
-            # for each friend's userFriendList, for each friend search its friends in relevantAdminFriends
-            for friend in friendList:
-                if friend != adminID:
-                    if friend in listOfUsers:
-                    # if found, check if not already in DB, if not, insert to DB
-                        dbhandler = DBhandler.DBhandler()
-                        dbhandler.insertPair(friend,adminFriend)
-                    else:
-                        # else - continue
-                        continue
+        if userFriendsList:
+            for adminFriend in listOfUsers:
+                friendList = userFriendsList[adminFriend]
+                # for each friend's userFriendList, for each friend search its friends in relevantAdminFriends
+                for friend in friendList:
+                    if friend != adminID:
+                        if friend in listOfUsers:
+                        # if found, check if not already in DB, if not, insert to DB
+                            dbhandler = DBhandler.DBhandler()
+                            dbhandler.insertPair(friend,adminFriend)
+                        else:
+                            # else - continue
+                            continue
 
 
     def generate_userfriends_list(self, listOfUsers):

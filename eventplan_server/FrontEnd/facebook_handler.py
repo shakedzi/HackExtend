@@ -26,8 +26,8 @@ class Facebook_helper():
 
     def get_friend_list_ids(self, myid , after=''):
         friends = self.graph.get_connections(myid, "friends", args=after)
-        pdb.set_trace()
         friend_id_list = [friend['id'] for friend in friends['data']]
+        pdb.set_trace()
         # after_token = friends['paging']['cursors']['after']
         return friend_id_list
 
