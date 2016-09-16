@@ -7,12 +7,14 @@ class DBhandler():
 
 
     def __init__(self):
-        self.connection = pymysql.connect(host='localhost',
-                                     user='user',
-                                     password='passwd',
-                                     db='db',
-                                     charset='utf8mb4',
-                                     cursorclass=pymysql.cursors.DictCursor)
+        self.connection = pymysql.connect()
+        # self.connection = pymysql.connect(host='localhost',
+        #                                   user='root',
+        #                                   password='SevLivecd',
+        #                                   db='evos',
+        #                                   charset='utf8mb4',
+        #                                   port='3306',
+        #                                   cursorclass=pymysql.cursors.DictCursor)
 
     def insertPair(self, friend, adminFriend):
         # connect to DB
