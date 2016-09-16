@@ -50,12 +50,6 @@ class creation():
 # createPairs({2:[1,4,5], 3:[1,4,7], 4:[1,2,3]}, [2,3,4], 1)
 
 
-
-
-
-
-
-
     # returnTablesJson = json.dumps('[{'
     #                               'guests: ['
     #                               '{name: shula, photo: "http://icons.iconarchive.com/icons/webalys/kameleon.pics/512/Woman-9-icon.png"},'
