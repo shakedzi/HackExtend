@@ -3,7 +3,7 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { Router, Route, hashHistory } from 'react-router'
 import Header from '../components/Header'
-
+import CreateEvent from '../components/createEvent'
 
 import * as TodoActions from '../actions'
 
@@ -14,6 +14,7 @@ class AddEvent extends Component {
     return (
       <div className="container">
       Add event
+      <CreateEvent />
       </div>
     )
   }
