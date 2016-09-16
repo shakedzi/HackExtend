@@ -4,7 +4,7 @@ class ProgressBar extends Component {
   constructor(props, context) {
     super(props, context)
     this.state = {
-      now: 60
+      now: 75
     }
   }
   render(){
