@@ -2,12 +2,12 @@
 from FrontEnd import DBhandler
 import facebook_handler
 import json
+import pdb
 
 
 class creation():
-    def __init__(self):
-        self.fh = facebook_handler.Facebook_helper()
-
+    def __init__(self, FB_token):
+        self.fh = facebook_handler.Facebook_helper(FB_token)
 
     def createPairs(self, listOfUsers, adminID):
         # userFriendsList = map of user and it's friends

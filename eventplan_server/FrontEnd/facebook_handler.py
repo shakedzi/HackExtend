@@ -1,14 +1,14 @@
 import requests
 import facebook
-
+import pdb
 
 class Facebook_helper():
 
     def __init__(self, user_access_token):
-        self.FACEBOOK_APP_ID = '137780206406222'
-        self.FACEBOOK_APP_SECRET = 'e45b1666df00671abfe403c5a3e86c95'
-        self.get_graph_object()
+        self.FACEBOOK_APP_ID = '608912575947670'
+        self.FACEBOOK_APP_SECRET = 'f11c0a48112686c8e47ba9cb4dd36585'
         self.access_token = user_access_token
+        self.get_graph_object()
 
     def get_fb_token(self, app_id, app_secret):
         payload = {'grant_type': 'client_credentials',
@@ -26,9 +26,10 @@ class Facebook_helper():
 
     def get_friend_list_ids(self, myid , after=''):
         friends = self.graph.get_connections(myid, "friends", args=after)
+        pdb.set_trace()
         friend_id_list = [friend['id'] for friend in friends['data']]
-        after_token = friends['paging']['cursors']['after']
-        return friend_id_list, after_token
+        # after_token = friends['paging']['cursors']['after']
+        return friend_id_list
 
     def get_name_from_id(self, myid):
         return self.graph.get_object(myid)['name']
