@@ -5,7 +5,6 @@ import pymysql
 class DBhandler():
     # TODO: fix this
 
-
     def __init__(self):
         self.connection = pymysql.connect()
         # self.connection = pymysql.connect(host='localhost',
